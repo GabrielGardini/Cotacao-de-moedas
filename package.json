@@ -1,0 +1,23 @@
+{
+  "name": "Cotacao-de-moedas",
+  "version": "1.0.0",
+  "description": "Aplicativo para desktop que mostra ao usuário a cotação atual do Dolar, Euro e Bitcoin em Reais",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielGardini/Cotacao-de-moedas.git"
+  },
+  "keywords": [],
+  "author": "GabrielGardini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielGardini/Cotacao-de-moedas/issues"
+  },
+  "homepage": "https://github.com/GabrielGardini/Cotacao-de-moedas#readme",
+  "devDependencies": {
+    "electron": "^13.2.2"
+  }
+}
