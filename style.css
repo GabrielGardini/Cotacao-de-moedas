@@ -12,9 +12,18 @@ body{
     flex-wrap:wrap;
     justify-content: center;
 }
+.coin-box{
+    border-radius: 15px;
+    background-color: rgba(215, 231, 215, 0.459);
+    width: 350px;
+    max-width: 350px;
+    margin: 20px;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 45px;
+}
 
 h1{
-    /* justify-content: center; */
     margin-left: auto;
     margin-right: auto;
     border-radius: 15px;
@@ -23,22 +32,31 @@ h1{
     text-align: center;
     font-size: 50px;
 }
-
-.coin-box{
-    border-radius: 15px;
-    background-color: rgba(215, 231, 215, 0.459);
-    width: 350px;
-    max-width: 350px;
-    /* background-color: red; */
-    /* border-radius: 15px; */
-    margin: 20px;
-    margin-top: 0;
-    text-align: center;
-    font-size: 50px;
+p{
+    margin-top: -20px;
 }
+
 img{
     display: block;
+    margin-top: -30px;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+input{
+    border-radius: 5px;
+    background-color: burlywood;
+    /* height: 30px; */
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    color: black;
+    font-weight: bold;
+
+}
+button{
+    background-color: rgba(215, 231, 215, 0.459);
+    border-radius: 5px;
+    font-family:'IBM Plex Sans Thai Looped', sans-serif;
+    font-weight: bold;
+    
 }
